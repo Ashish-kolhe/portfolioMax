@@ -318,7 +318,9 @@ useEffect(() => {
             <p className="text-primary-foreground/90 mb-8 text-lg leading-relaxed">
               Have a project in mind? Let's collaborate and bring your vision to life
             </p>
-            <Button size="lg" variant="secondary" className="mb-12 shadow-lg hover:shadow-xl transition-shadow">
+            <Button onClick={() => {
+                    window.location.href = "mailto:developerashishkolhe@gmail.com"
+                  }} size="lg" variant="secondary" className="mb-12 shadow-lg hover:shadow-xl transition-shadow">
               <Mail className="mr-2 h-5 w-5" />
               Get In Touch
             </Button>
