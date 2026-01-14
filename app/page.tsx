@@ -231,7 +231,7 @@ useEffect(() => {
               </h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
                 Web developer who enjoys building useful things on the internet, breaking them occasionally, fixing them
-                again, and who <span className="text-primary">Writes</span> sometimes
+                again, and who <span className="text-primary"><a href="https://booksbyashish.vercel.app/">Writes</a></span> sometimes
               </p>
 
               <div className="flex gap-4">
